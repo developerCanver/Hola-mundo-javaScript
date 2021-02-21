@@ -60,6 +60,32 @@ var autos = [
 ];
 console.log(autos);
 console.log(typeof autos);
-
+ 
 var z = '';
 console.log(z);
+
+
+//tipo de definicion de vriables
+let nombre1;
+nombre1 = "Martin";
+console.log(nombre1);
+
+
+const apellido2 = "Ruiz";
+//apellido2 ="csd"; las variabls¿es definic¿das Cont no se puede volver asignar
+console.log(apellido2);
+
+
+let nombreCompleto="juan perez";
+console.log(nombreCompleto);
+
+let n,m;
+n = 10, m=20;
+let o = n +m;
+console.log(o);
+
+//javaScript es sencible a miniculas y mayuculas
+let nombresCompletos = "Carlos Ruiz Rivera";
+let nombrescompletos = "Juan Perez";
+console.log(nombrescompletos);
+console.log(nombresCompletos);
